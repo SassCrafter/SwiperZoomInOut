@@ -1,0 +1,43 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	margin: 0;
+	font-size: 1.6rem;
+	background-color: #333;
+	color: #fff;
+}
+
+img {
+	display: inline-block;
+	max-width: 100%;
+}
+
+
+.swiper-container {
+	width: 100%;
+	height: 100vh;
+}
+
+.swiper-wrapper, .swiper-slide {
+	width: 100%;
+	height: 100%;
+	/*border: 1px solid red;*/
+}
+
+.swiper-zoom {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.swiper-slide img {
+	max-width: 200px;
+}
